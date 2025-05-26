@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className=" bg-gray-900 text-white">
       <Navbar />
       <Hero />
       <Projects />
