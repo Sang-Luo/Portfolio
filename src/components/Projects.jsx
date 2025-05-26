@@ -32,8 +32,22 @@ function Projects() {
         title: "Computer Vision",
         description:
           "This is a compilation of my academic work in a Computer Vision course. Focus on the understanding of edge detection and MLL.",
-        image: "https://sang-luo.github.io/Portfolio/images/superstore.png",
+        image: "https://sang-luo.github.io/Portfolio/images/computervision.png",
         link: "https://github.com/Sang-Luo/Computer-Vision",
+      },
+      {
+        title: "Movie-Ratings-ETL-Visualization-Project",
+        description:
+          "This project demonstrates a full ETL pipeline using real-world movie data. It loads CSV files, transforms the data with Python (Pandas), stores it in an SQLite database, runs SQL queries, and generates visualizations to extract insights from user ratings and movie genres.",
+        image: "https://sang-luo.github.io/Portfolio/images/sqldatapipeline.png",
+        link: "https://github.com/Sang-Luo/Movie-Ratings-ETL-Visualization-Project",
+      },
+      {
+        title: "Applied Crypto",
+        description:
+          "This is a compilation of Applied Crypto Projects and Assignments within a course I've taken in my academics. Focus on basic understanding of best cyber secuirty practices.",
+        image: "https://sang-luo.github.io/Portfolio/images/crypto.png",
+        link: "https://github.com/Sang-Luo/Applied-Crypto",
       },
       {
         title: "Tic Tac Toe (Java)",
