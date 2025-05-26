@@ -38,11 +38,10 @@ function Projects() {
               key={index}
               className="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-40 object-cover"
-              />
+            <div className="w-full h-40 bg-gray-700 flex items-center justify-center text-sm italic text-gray-400">
+            [Image here]
+            </div>
+
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-400 text-sm mb-4">{project.description}</p>
