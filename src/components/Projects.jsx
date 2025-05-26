@@ -81,7 +81,7 @@ function Projects() {
                 alt={project.title}
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/images/fallback.png";
+                  e.target.src = "https://sang-luo.github.io/Portfolio/images/fallback.png";
                 }}
                 className="w-full h-40 object-cover rounded-t-xl"
               />
