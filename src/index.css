@@ -8,6 +8,10 @@
     animation: gradientShift 20s ease infinite;
   }  
   
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
   @keyframes gradientShift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
