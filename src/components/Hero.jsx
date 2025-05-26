@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 text-white animated-bg">
       <img
-        src="/profile.jpg"
+        src="/sang-profile.jpg"
         alt="Sang"
         className="w-32 h-32 rounded-full mb-6 border-4 border-blue-500 shadow-lg"
         />
