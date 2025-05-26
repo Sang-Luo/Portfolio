@@ -18,8 +18,8 @@ function Projects() {
         title: "PHP E-Commerce Site",
         description:
           "A dynamic web store built with PHP, MySQL, and Bootstrap. Features user roles, inventory management, and shopping cart functionality.",
-        image: "https://github.com/Sang-Luo/EcommerceWebsite-",
-        link: "https://github.com/Sang-Luo/php-ecommerce",
+        image: "https://sang-luo.github.io/Portfolio/images/ecommerce.png",
+        link: "https://github.com/Sang-Luo/EcommerceWebsite-",
       },
       {
         title: "System Diagnostic Tool (Python CLI)",
