@@ -11,21 +11,21 @@ function Projects() {
         title: "Data Projects/Assignments",
         description:
           "This is a compilation of Data Projects and Assignments within a course I've taken in my academics.",
-        image: "https://sang-luo.github.io/Portfolio/images/superstore.png",
+        image: "https://sang-luo.github.io/Portfolio/images/dataprojects.png",
         link: "https://github.com/Sang-Luo/Data-Projects-Assignments",
       },
       {
         title: "PHP E-Commerce Site",
         description:
           "A dynamic web store built with PHP, MySQL, and Bootstrap. Features user roles, inventory management, and shopping cart functionality.",
-        image: "https://sang-luo.github.io/Portfolio/images/ecommerce.png",
+        image: "https://github.com/Sang-Luo/EcommerceWebsite-",
         link: "https://github.com/Sang-Luo/php-ecommerce",
       },
       {
         title: "System Diagnostic Tool (Python CLI)",
         description:
           "A Python-based command-line tool that scans a computer system and generates a detailed diagnostic report. Built to simulate real-world technical support workflows, this tool can assist in identifying issues related to memory, disk usage, network connectivity, CPU usage, and more.",
-        image: "https://sang-luo.github.io/Portfolio/images/superstore.png",
+        image: "https://sang-luo.github.io/Portfolio/images/sdtcli.png",
         link: "https://github.com/Sang-Luo/System-Diagnostic-Tool-CLI-Python-Script-",
       },
       {
