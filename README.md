@@ -2,6 +2,8 @@
 
 This is a polished, animated, live-deployed React portfolio.
 
+https://sang-luo.github.io/Portfolio/
+
 ---
 
 Features :
