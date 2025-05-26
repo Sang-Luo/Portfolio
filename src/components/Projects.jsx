@@ -4,21 +4,21 @@ function Projects() {
         title: "Sales Performance Dashboard",
         description:
           "A data visualization dashboard using Python, Matplotlib, and Seaborn to analyze Superstore sales trends and product performance.",
-        image: `${import.meta.env.BASE_URL}images/superstore.png`, // put this in /public/images/
+        image: "https://sang-luo.github.io/Portfolio/images/superstore.png", // put this in /public/images/
         link: "https://github.com/Sang-Luo/Project_Sales_Dashboards",
       },
       {
         title: "PHP E-Commerce Site",
         description:
           "A dynamic web store built with PHP, MySQL, and Bootstrap. Features user roles, inventory management, and shopping cart functionality.",
-        image: `${import.meta.env.BASE_URL}images/ecommerce.png`,
+        image: "https://sang-luo.github.io/Portfolio/images/superstore.png",
         link: "https://github.com/YOUR_USERNAME/php-ecommerce",
       },
       {
         title: "Tic Tac Toe (Java)",
         description:
           "A simple console-based game written in Java with logic handling for win/tie scenarios and player turns.",
-        image: `${import.meta.env.BASE_URL}images/tictactoe.png`,
+        image: "https://sang-luo.github.io/Portfolio/images/superstore.png",
         link: "https://github.com/Sang-Luo/Tic-Tech-Toe",
       },
     ];
@@ -38,16 +38,9 @@ function Projects() {
               key={index}
               className="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
-        <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-40 object-cover transition-opacity duration-300"
-        onError={(e) => {
-            e.target.onerror = null;
-            e.target.src = "https://via.placeholder.com/600x300?text=Project+Image";
-        }}
-        />
-
+            <div className="w-full h-40 bg-gray-700 flex items-center justify-center text-sm italic text-gray-400">
+            [Image here]
+            </div>
 
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
