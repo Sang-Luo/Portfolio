@@ -4,21 +4,21 @@ function Projects() {
         title: "Sales Performance Dashboard",
         description:
           "A data visualization dashboard using Python, Matplotlib, and Seaborn to analyze Superstore sales trends and product performance.",
-        image: "https://sang-luo.github.io/Portfolio/images/superstore.png", // put this in /public/images/
+        image: `${import.meta.env.BASE_URL}images/superstore.png`, // put this in /public/images/
         link: "https://github.com/Sang-Luo/Project_Sales_Dashboards",
       },
       {
         title: "PHP E-Commerce Site",
         description:
           "A dynamic web store built with PHP, MySQL, and Bootstrap. Features user roles, inventory management, and shopping cart functionality.",
-        image: "/images/ecommerce.png",
+        image: `${import.meta.env.BASE_URL}images/ecommerce.png`,
         link: "https://github.com/YOUR_USERNAME/php-ecommerce",
       },
       {
         title: "Tic Tac Toe (Java)",
         description:
           "A simple console-based game written in Java with logic handling for win/tie scenarios and player turns.",
-        image: "/images/tictactoe.png",
+        image: `${import.meta.env.BASE_URL}images/tictactoe.png`,
         link: "https://github.com/Sang-Luo/Tic-Tech-Toe",
       },
     ];
