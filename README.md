@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is a React app code of my portfolio to display my information and my works
+This is a polished, animated, live-deployed React portfolio.
 
 ---
 
