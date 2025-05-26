@@ -80,7 +80,8 @@ function Projects() {
                 src={project.image}
                 alt={project.title}
                 onError={(e) => {
-                  e.target.src = "https://via.placeholder.com/600x300?text=Image+Not+Found";
+                  e.target.onerror = null;
+                  e.target.src = "/images/fallback.png";
                 }}
                 className="w-full h-40 object-cover rounded-t-xl"
               />
