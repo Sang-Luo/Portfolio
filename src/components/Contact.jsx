@@ -69,6 +69,30 @@ function Contact() {
           ✅ Thank you! Your message has been sent. Returning to form...
         </div>
       )}
+      <div className="flex justify-center gap-6 mt-10 text-2xl text-gray-400">
+    <a
+        href="https://github.com/Sang-Luo"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-white transition"
+    >
+        <i className="fab fa-github"></i>
+    </a>
+    <a
+        href="www.linkedin.com/in/sang-luong-484749353"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-white transition"
+    >
+        <i className="fab fa-linkedin"></i>
+    </a>
+    <a
+        href="mailto:sangluo@email.com"
+        className="hover:text-white transition"
+    >
+        <i className="fas fa-envelope"></i>
+    </a>
+    </div>
     </section>
   );
 }
