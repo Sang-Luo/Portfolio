@@ -29,7 +29,7 @@ function Hero() {
       </p>
      
       <a
-        href="/Resume.pdf"
+        href="/resume.pdf"
         download
         className="mt-4 bg-gray-700 hover:bg-gray-800 text-white px-6 py-2 rounded-lg text-sm md:text-base transition"
       >
