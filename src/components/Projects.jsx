@@ -35,18 +35,20 @@ function Projects() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
-                key={index}
-                className="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              key={index}
+              className="bg-gray-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
-            <img
-            src={project.image}
-            alt={project.title}
-            className="w-full h-40 object-cover transition-opacity duration-300"
-            onError={(e) => {
-                e.target.onerror = null;
-                e.target.src = "https://via.placeholder.com/600x300?text=Project+Image";
-            }}
-            />
+        <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-40 object-cover transition-opacity duration-300"
+        onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = "https://via.placeholder.com/600x300?text=Project+Image";
+        }}
+        />
+
+
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-400 text-sm mb-4">{project.description}</p>
