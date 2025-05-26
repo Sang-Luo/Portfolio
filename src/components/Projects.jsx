@@ -4,7 +4,7 @@ function Projects() {
         title: "Sales Performance Dashboard",
         description:
           "A data visualization dashboard using Python, Matplotlib, and Seaborn to analyze Superstore sales trends and product performance.",
-        image: "/images/superstore.png", // put this in /public/images/
+        image: "https://sang-luo.github.io/Portfolio/images/superstore.png", // put this in /public/images/
         link: "https://github.com/Sang-Luo/Project_Sales_Dashboards",
       },
       {
