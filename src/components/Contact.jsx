@@ -1,18 +1,33 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 function Contact() {
   const [submitted, setSubmitted] = useState(false);
+  const formRef = useRef(null);
+
+  const handleSubmit = (e) => {
+    setSubmitted(true);
+
+    // Reset form after 5 seconds
+    setTimeout(() => {
+      setSubmitted(false);
+      formRef.current?.reset(); // clear input fields
+    }, 5000);
+  };
 
   return (
-    <section id="contact" className="bg-gray-900 text-white py-16 px-4 md:px-12 lg:px-20">
+    <section
+      id="contact"
+      className="bg-gray-900 text-white py-16 px-4 md:px-12 lg:px-20"
+    >
       <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-emerald-300 drop-shadow-md">
         Contact Me
       </h2>
 
       {!submitted ? (
         <form
-          onSubmit={() => setSubmitted(true)}
-          action="https://formsubmit.co/YOUR_EMAIL@gmail.com"
+          ref={formRef}
+          onSubmit={handleSubmit}
+          action="https://formsubmit.co/sangluo2015@gmail.com"
           method="POST"
           className="max-w-2xl mx-auto grid gap-6"
         >
@@ -50,8 +65,8 @@ function Contact() {
           </button>
         </form>
       ) : (
-        <div className="text-center text-xl text-green-400 mt-8">
-          ✅ Thank you! Your message has been sent.
+        <div className="text-center text-xl text-green-400 mt-8 animate-fade-in">
+          ✅ Thank you! Your message has been sent. Returning to form...
         </div>
       )}
     </section>
