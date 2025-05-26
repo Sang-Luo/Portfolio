@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 text-white animated-bg">
       <img
-        src="/profile.jpg"
+        src="./profile.jpg"
         alt="Sang"
         className="w-32 h-32 rounded-full mb-6 border-4 border-blue-500 shadow-lg"
         />
@@ -29,7 +29,7 @@ function Hero() {
       </p>
      
       <a
-        href="/resume.pdf"
+        href="./resume.pdf"
         download
         className="mt-4 bg-gray-700 hover:bg-gray-800 text-white px-6 py-2 rounded-lg text-sm md:text-base transition"
       >
